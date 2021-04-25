@@ -9,5 +9,10 @@ const bucket = new Bucket(this, 'MySimpleAppBucket', {
       encryption: BucketEncryption.S3_MANAGED,
     });
     
+    new cdk.CfnOutput(this, 'MySimpleAppBucketNameExport', {
+      value: bucket.bucketName,
+      exportName: 'MySimpleAppBucketName',
+    });
+    
   }
 }
