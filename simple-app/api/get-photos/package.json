@@ -1,0 +1,19 @@
+{
+  "name": "get-photos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.76",
+    "aws-sdk": "^2.892.0"
+  },
+  "dependencies": {
+    "@aws-cdk/aws-lambda": "^1.100.0"
+  }
+}
