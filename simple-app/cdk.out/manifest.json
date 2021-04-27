@@ -1,0 +1,117 @@
+{
+  "version": "9.0.0",
+  "artifacts": {
+    "Tree": {
+      "type": "cdk:tree",
+      "properties": {
+        "file": "tree.json"
+      }
+    },
+    "SimpleAppStack": {
+      "type": "aws:cloudformation:stack",
+      "environment": "aws://unknown-account/unknown-region",
+      "properties": {
+        "templateFile": "SimpleAppStack.template.json"
+      },
+      "metadata": {
+        "/SimpleAppStack/MySimpleAppBucket/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MySimpleAppBucket6B59014A",
+            "trace": [
+              "new Bucket (/home/ubuntu/environment/aws-cdk-simple-app-ns/simple-app/node_modules/@aws-cdk/aws-s3/lib/bucket.ts:1331:22)",
+              "new SimpleAppStack (/home/ubuntu/environment/aws-cdk-simple-app-ns/simple-app/lib/simple-app-stack.ts:8:16)",
+              "Object.<anonymous> (/home/ubuntu/environment/aws-cdk-simple-app-ns/simple-app/bin/simple-app.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:778:30)",
+              "Module.m._compile (/home/ubuntu/environment/aws-cdk-simple-app-ns/simple-app/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:789:10)",
+              "Object.require.extensions.(anonymous function) [as .ts] (/home/ubuntu/environment/aws-cdk-simple-app-ns/simple-app/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:653:32)",
+              "tryModuleLoad (internal/modules/cjs/loader.js:593:12)",
+              "Function.Module._load (internal/modules/cjs/loader.js:585:3)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:831:12)",
+              "main (/home/ubuntu/environment/aws-cdk-simple-app-ns/simple-app/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/home/ubuntu/environment/aws-cdk-simple-app-ns/simple-app/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:778:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)",
+              "Module.load (internal/modules/cjs/loader.js:653:32)",
+              "tryModuleLoad (internal/modules/cjs/loader.js:593:12)",
+              "Function.Module._load (internal/modules/cjs/loader.js:585:3)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:831:12)",
+              "findNodeScript.then.existing (/home/ubuntu/.nvm/versions/node/v10.24.1/lib/node_modules/npm/node_modules/libnpx/index.js:268:14)"
+            ]
+          }
+        ],
+        "/SimpleAppStack/MySimpleAppBucketNameExport": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MySimpleAppBucketNameExport",
+            "trace": [
+              "new SimpleAppStack (/home/ubuntu/environment/aws-cdk-simple-app-ns/simple-app/lib/simple-app-stack.ts:12:5)",
+              "Object.<anonymous> (/home/ubuntu/environment/aws-cdk-simple-app-ns/simple-app/bin/simple-app.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:778:30)",
+              "Module.m._compile (/home/ubuntu/environment/aws-cdk-simple-app-ns/simple-app/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:789:10)",
+              "Object.require.extensions.(anonymous function) [as .ts] (/home/ubuntu/environment/aws-cdk-simple-app-ns/simple-app/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:653:32)",
+              "tryModuleLoad (internal/modules/cjs/loader.js:593:12)",
+              "Function.Module._load (internal/modules/cjs/loader.js:585:3)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:831:12)",
+              "main (/home/ubuntu/environment/aws-cdk-simple-app-ns/simple-app/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/home/ubuntu/environment/aws-cdk-simple-app-ns/simple-app/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:778:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)",
+              "Module.load (internal/modules/cjs/loader.js:653:32)",
+              "tryModuleLoad (internal/modules/cjs/loader.js:593:12)",
+              "Function.Module._load (internal/modules/cjs/loader.js:585:3)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:831:12)",
+              "findNodeScript.then.existing (/home/ubuntu/.nvm/versions/node/v10.24.1/lib/node_modules/npm/node_modules/libnpx/index.js:268:14)"
+            ]
+          }
+        ],
+        "/SimpleAppStack/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata",
+            "trace": [
+              "new MetadataResource (/home/ubuntu/environment/aws-cdk-simple-app-ns/simple-app/node_modules/@aws-cdk/core/lib/private/metadata-resource.ts:22:24)",
+              "construct (/home/ubuntu/environment/aws-cdk-simple-app-ns/simple-app/node_modules/@aws-cdk/core/lib/private/synthesis.ts:140:5)",
+              "visit (/home/ubuntu/environment/aws-cdk-simple-app-ns/simple-app/node_modules/@aws-cdk/core/lib/private/synthesis.ts:201:5)",
+              "visit (/home/ubuntu/environment/aws-cdk-simple-app-ns/simple-app/node_modules/@aws-cdk/core/lib/private/synthesis.ts:197:5)",
+              "injectMetadataResources (/home/ubuntu/environment/aws-cdk-simple-app-ns/simple-app/node_modules/@aws-cdk/core/lib/private/synthesis.ts:131:3)",
+              "Object.synthesize (/home/ubuntu/environment/aws-cdk-simple-app-ns/simple-app/node_modules/@aws-cdk/core/lib/private/synthesis.ts:18:3)",
+              "App.synth (/home/ubuntu/environment/aws-cdk-simple-app-ns/simple-app/node_modules/@aws-cdk/core/lib/stage.ts:188:23)",
+              "process.App.process.once (/home/ubuntu/environment/aws-cdk-simple-app-ns/simple-app/node_modules/@aws-cdk/core/lib/app.ts:123:45)",
+              "Object.onceWrapper (events.js:286:20)",
+              "process.emit (events.js:198:13)",
+              "process.EventEmitter.emit (domain.js:448:20)",
+              "process.emit (/home/ubuntu/environment/aws-cdk-simple-app-ns/simple-app/node_modules/source-map-support/source-map-support.js:495:21)",
+              "process.topLevelDomainCallback (domain.js:126:23)"
+            ]
+          }
+        ],
+        "/SimpleAppStack/CDKMetadata/Condition": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadataAvailable",
+            "trace": [
+              "new MetadataResource (/home/ubuntu/environment/aws-cdk-simple-app-ns/simple-app/node_modules/@aws-cdk/core/lib/private/metadata-resource.ts:31:27)",
+              "construct (/home/ubuntu/environment/aws-cdk-simple-app-ns/simple-app/node_modules/@aws-cdk/core/lib/private/synthesis.ts:140:5)",
+              "visit (/home/ubuntu/environment/aws-cdk-simple-app-ns/simple-app/node_modules/@aws-cdk/core/lib/private/synthesis.ts:201:5)",
+              "visit (/home/ubuntu/environment/aws-cdk-simple-app-ns/simple-app/node_modules/@aws-cdk/core/lib/private/synthesis.ts:197:5)",
+              "injectMetadataResources (/home/ubuntu/environment/aws-cdk-simple-app-ns/simple-app/node_modules/@aws-cdk/core/lib/private/synthesis.ts:131:3)",
+              "Object.synthesize (/home/ubuntu/environment/aws-cdk-simple-app-ns/simple-app/node_modules/@aws-cdk/core/lib/private/synthesis.ts:18:3)",
+              "App.synth (/home/ubuntu/environment/aws-cdk-simple-app-ns/simple-app/node_modules/@aws-cdk/core/lib/stage.ts:188:23)",
+              "process.App.process.once (/home/ubuntu/environment/aws-cdk-simple-app-ns/simple-app/node_modules/@aws-cdk/core/lib/app.ts:123:45)",
+              "Object.onceWrapper (events.js:286:20)",
+              "process.emit (events.js:198:13)",
+              "process.EventEmitter.emit (domain.js:448:20)",
+              "process.emit (/home/ubuntu/environment/aws-cdk-simple-app-ns/simple-app/node_modules/source-map-support/source-map-support.js:495:21)",
+              "process.topLevelDomainCallback (domain.js:126:23)"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
